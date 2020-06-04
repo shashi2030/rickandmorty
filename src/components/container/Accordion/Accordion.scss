@@ -1,0 +1,32 @@
+.accordion{
+    background: rgba(#fff,.9);
+    border-radius: 4px;
+    overflow: hidden;
+    .MuiGrid-item{
+        width:100%;
+    }    
+    .accordion-title{        
+        padding:20px;
+        cursor: pointer;
+        position: relative;    
+        .arrow{
+            border: solid #800080;
+            border-width: 0 5px 5px 0;
+            display: inline-block;
+            padding: 5px;  
+            transition: transform .2s linear;
+            position: absolute;
+            right:20px;
+            top:calc(50% - 5px)
+        }
+        .right{
+            transform: rotate(-45deg);
+        }
+        .down{
+            transform: rotate(45deg);
+        }
+    }    
+    .active{
+        max-height:300px;
+    }
+}

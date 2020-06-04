@@ -1,0 +1,39 @@
+header{
+    background:rgba(#fff, .9);
+    border-radius: 4px;
+    padding:10px;
+    display: flex;
+    margin-bottom:10px;
+    h1{
+        
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color:#800080;
+    }
+    .username{
+        color:blue;
+        span{
+            font-weight: bold;
+        }
+    }   
+}
+.select{
+    justify-content: flex-end;
+}
+.search, .select{
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 960px) {
+    .select, .search, .logo-heading{
+        text-align: center;
+        justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .select, .search, .logo-heading{
+        text-align: center;
+        
+    }
+  }

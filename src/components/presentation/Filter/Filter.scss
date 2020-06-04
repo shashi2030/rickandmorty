@@ -1,0 +1,16 @@
+.filter-container{
+    border:solid 1px gray;
+    max-height:0;
+    overflow: hidden;
+    transition: all .2s linear;
+    .box{
+        padding:5px;
+        h4{
+            font-size:16px;
+            margin:0;
+            background: rgba(#000, .1);
+            padding:4px;
+            border-radius: 2px;
+        }
+    }        
+}
